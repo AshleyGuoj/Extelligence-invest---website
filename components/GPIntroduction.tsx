@@ -15,13 +15,13 @@ export default function GPIntroduction() {
       name: 'James Kong',
       role: 'Cross-border PE investor with Asia/US experience',
       description: 'Seasoned private equity professional with deep expertise in cross-border investments and market expansion.',
-      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/ac0a10e7d97dc5ebe967f97f57c41a12.jfif'
+      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/c2fd64129a24dc25b66ff11052ca8106.jfif'
     },
     {
       name: 'Richard Du',
       role: 'Automotive and global market operator',
       description: 'Industry veteran with operational expertise in automotive technology and global market development.',
-      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/c2fd64129a24dc25b66ff11052ca8106.jfif'
+      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/ac0a10e7d97dc5ebe967f97f57c41a12.jfif'
     },
     {
       name: 'Vivian Zhang',

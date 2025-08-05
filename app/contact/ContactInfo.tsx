@@ -6,7 +6,7 @@ export default function ContactInfo() {
     { purpose: 'General Inquiries', email: 'contact@extelligence.vc', icon: 'ri-mail-line' },
     { purpose: 'Founder Pitches', email: 'founders@extelligence.vc', icon: 'ri-rocket-line' },
     { purpose: 'Media & Press', email: 'media@extelligence.vc', icon: 'ri-news-line' },
-    { purpose: 'Legal & Compliance', email: 'azhou@rc.com', icon: 'ri-shield-check-line' }
+    { purpose: 'Legal & Compliance', email: 'legal@extelligence.vc', icon: 'ri-shield-check-line' }
   ];
 
   return (

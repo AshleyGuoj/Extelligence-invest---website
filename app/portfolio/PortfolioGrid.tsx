@@ -4,7 +4,7 @@
 import { useState } from 'react';
 
 export default function PortfolioGrid() {
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('All AI');
 
   const portfolioCategories = [
     {
@@ -94,8 +94,7 @@ export default function PortfolioGrid() {
   ];
 
   const filterCategories = [
-    'All', 
-    'AI', 
+    'All AI', 
     'Healthcare', 
     'Consumer', 
     'FinTech', 
@@ -108,7 +107,6 @@ export default function PortfolioGrid() {
 
   const getCategoryMapping = (category: string) => {
     const mapping: { [key: string]: string } = {
-      'AI': 'AI Companies',
       'Healthcare': 'Healthcare',
       'Consumer': 'Consumer / Lifestyle',
       'FinTech': 'FinTech / Data Platforms',
@@ -121,7 +119,7 @@ export default function PortfolioGrid() {
     return mapping[category] || category;
   };
 
-  const filteredCategories = selectedCategory === 'All' 
+  const filteredCategories = selectedCategory === 'All AI' 
     ? portfolioCategories 
     : portfolioCategories.filter(cat => cat.title === getCategoryMapping(selectedCategory));
 

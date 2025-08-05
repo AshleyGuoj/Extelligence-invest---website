@@ -27,8 +27,8 @@ export default function ContactLegal() {
                 </div>
                 <div className="text-left">
                   <p className="text-blue-300 text-sm">Email</p>
-                  <a href="mailto:azhou@rc.com" className="text-white font-semibold hover:text-blue-300 transition-colors cursor-pointer">
-                    azhou@rc.com
+                  <a href="mailto:legal@extelligence.vc" className="text-white font-semibold hover:text-blue-300 transition-colors cursor-pointer">
+                    legal@extelligence.vc
                   </a>
                 </div>
               </div>

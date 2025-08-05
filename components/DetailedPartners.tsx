@@ -15,13 +15,13 @@ export default function DetailedPartners() {
       title: 'Investor. Global Strategist. Financial Architect.',
       description: 'James is an experienced private equity and capital markets investor with a focus on cross-border transactions, growth equity, and capital strategy. He brings a strong track record in high-impact investments and building strategic partnerships across Asia and North America.',
       linkedin: 'https://www.linkedin.com/in/james-kong-808a511b',
-      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/ac0a10e7d97dc5ebe967f97f57c41a12.jfif'
+      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/c2fd64129a24dc25b66ff11052ca8106.jfif'
     },
     {
       name: 'Richard Du',
       title: 'Global Automotive Leader. Supply Chain & Marketing Expert.',
       description: 'Graduated from Shanghai Jiao Tong University, Richard brings over two decades of experience in the international automotive industry. He has held leadership positions at PwC, General Motors, Siemens, Jaguar Land Rover, and SAIC Group. He has overseen overseas supply chains, brand communication, and marketing networks for global vehicle brands including Land Rover, Jaguar, Cadillac, Chevrolet, MG, Roewe, and Opel. With deep expertise in new energy vehicles and autonomous driving, Richard manages cross-border teams and brings strategic insight into global mobility trends.',
-      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/c2fd64129a24dc25b66ff11052ca8106.jfif'
+      image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/ac0a10e7d97dc5ebe967f97f57c41a12.jfif'
     },
     {
       name: 'Vivian Zhang',
@@ -65,15 +65,15 @@ export default function DetailedPartners() {
                   {partner.title}
                 </p>
 
-                {partner.location && (
+                {(partner as any).location && (
                   <div className="flex items-center space-x-2 text-gray-600 mb-2">
                     <i className="ri-map-pin-line w-4 h-4 flex items-center justify-center"></i>
-                    <span>{partner.location}</span>
-                    {partner.email && (
+                    <span>{(partner as any).location}</span>
+                    {(partner as any).email && (
                       <>
                         <span>|</span>
-                        <a href={`mailto:${partner.email}`} className="text-blue-600 hover:text-blue-800 cursor-pointer">
-                          {partner.email}
+                        <a href={`mailto:${(partner as any).email}`} className="text-blue-600 hover:text-blue-800 cursor-pointer">
+                          {(partner as any).email}
                         </a>
                       </>
                     )}
