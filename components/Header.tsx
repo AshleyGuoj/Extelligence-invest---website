@@ -21,6 +21,9 @@ export default function Header() {
               <Link href="/portfolio" className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors cursor-pointer">
                 Portfolio
               </Link>
+              <Link href="/lp" className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors cursor-pointer">
+                For LPs
+              </Link>
               <Link href="/about" className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors cursor-pointer">
                 About
               </Link>
