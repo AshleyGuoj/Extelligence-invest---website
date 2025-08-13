@@ -2,6 +2,7 @@
 'use client';
 
 import Link from 'next/link';
+import Logo from './Logo';
 
 export default function Header() {
   return (
@@ -9,14 +10,15 @@ export default function Header() {
       <nav className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-['Pacifico'] text-blue-600">
-              Extelligence Invest
-            </Link>
+            <Logo />
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <Link href="/" className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors cursor-pointer">
                 Home
+              </Link>
+              <Link href="/investment-philosophy" className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors cursor-pointer">
+                Investment Philosophy
               </Link>
               <Link href="/portfolio" className="text-gray-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors cursor-pointer">
                 Portfolio

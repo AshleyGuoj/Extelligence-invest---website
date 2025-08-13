@@ -1,13 +1,19 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 
 export default function InvestmentPhilosophyHero() {
   const [isVisible, setIsVisible] = useState(false)
+  const router = useRouter()
 
   useEffect(() => {
     setIsVisible(true)
   }, [])
+
+  const handleContactClick = () => {
+    router.push('/contact')
+  }
 
   return (
     <section className="relative bg-gradient-to-br from-primary-900 via-primary-700 to-primary-900 text-white py-20 lg:py-32">
@@ -34,7 +40,10 @@ export default function InvestmentPhilosophyHero() {
           <div className={`transition-all duration-1000 ease-out delay-600 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}>
-            <button className="btn-primary bg-white text-primary-900 hover:bg-gray-100 mt-8">
+            <button 
+              onClick={handleContactClick}
+              className="btn-primary bg-white text-primary-900 hover:bg-gray-100 mt-8 cursor-pointer transition-all duration-300 hover:scale-105"
+            >
               Contact Us
             </button>
           </div>

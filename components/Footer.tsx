@@ -2,6 +2,7 @@
 'use client';
 
 import Link from 'next/link';
+import Logo from './Logo';
 
 export default function Footer() {
   return (
@@ -9,9 +10,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-['Pacifico'] text-blue-400 mb-4">
-              Extelligence Invest
-            </h3>
+            <div className="mb-4">
+              <Logo showText={true} className="text-white" />
+            </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               A cross-border early-stage investment firm focused on transformative technologies in AI, deeptech, and human infrastructure.
             </p>
@@ -30,6 +31,16 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
+              <li>
+                <Link href="/investment-philosophy" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                  Investment Philosophy
+                </Link>
+              </li>
+              <li>
+                <Link href="/lp" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                  For LPs
+                </Link>
+              </li>
               <li>
                 <Link href="/portfolio" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
                   Portfolio

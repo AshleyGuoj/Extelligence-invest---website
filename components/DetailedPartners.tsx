@@ -12,7 +12,7 @@ export default function DetailedPartners() {
     },
     {
       name: 'James Kong',
-      title: 'Investor. Global Strategist. Financial Architect.',
+      title: 'Cross-border PE investor with Asia/US experience',
       description: 'James is an experienced private equity and capital markets investor with a focus on cross-border transactions, growth equity, and capital strategy. He brings a strong track record in high-impact investments and building strategic partnerships across Asia and North America.',
       linkedin: 'https://www.linkedin.com/in/james-kong-808a511b',
       image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/c2fd64129a24dc25b66ff11052ca8106.jfif'
@@ -67,7 +67,10 @@ export default function DetailedPartners() {
 
                 {(partner as any).location && (
                   <div className="flex items-center space-x-2 text-gray-600 mb-2">
-                    <i className="ri-map-pin-line w-4 h-4 flex items-center justify-center"></i>
+                    <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
                     <span>{(partner as any).location}</span>
                     {(partner as any).email && (
                       <>
@@ -92,7 +95,9 @@ export default function DetailedPartners() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors cursor-pointer whitespace-nowrap text-sm"
                     >
-                      <i className="ri-wikipedia-line mr-2 w-4 h-4 flex items-center justify-center"></i>
+                      <svg className="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.386.059 2.053.131.673.077 1.33.187 1.984.31C21.307 6.025 22 7.548 22 9.286c0 1.427-.49 2.746-1.67 3.853-.58.56-1.362.988-2.084 1.284-.723.295-1.453.442-2.012.442-.688 0-1.386-.059-2.053-.131-.673-.077-1.33-.187-1.984-.31C16.307 13.975 16 12.452 16 10.714c0-1.427.49-2.746 1.67-3.853.58-.56 1.362-.988 2.084-1.284.723-.295 1.453-.442 2.012-.442zm-5.01 0c-.688 0-1.386.059-2.053.131-.673.077-1.33.187-1.984.31C6.307 6.025 6 7.548 6 9.286c0 1.427.49 2.746 1.67 3.853.58.56 1.362.988 2.084 1.284.723.295 1.453.442 2.012.442.688 0 1.386-.059 2.053-.131.673-.077 1.33-.187 1.984-.31C17.693 13.975 18 12.452 18 10.714c0-1.427-.49-2.746-1.67-3.853-.58-.56-1.362-.988-2.084-1.284-.723-.295-1.453-.442-2.012-.442z"/>
+                      </svg>
                       Wikipedia Profile
                     </a>
                   )}
@@ -103,7 +108,9 @@ export default function DetailedPartners() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-800 transition-colors cursor-pointer whitespace-nowrap text-sm"
                     >
-                      <i className="ri-linkedin-fill mr-2 w-4 h-4 flex items-center justify-center"></i>
+                      <svg className="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                      </svg>
                       LinkedIn
                     </a>
                   )}
