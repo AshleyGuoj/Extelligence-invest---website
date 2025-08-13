@@ -1,8 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -42,17 +39,4 @@ module.exports = {
     },
   },
   plugins: [],
-} 
-=======
->>>>>>> InvestPhil
-  content: ["./{app,components,libs,pages,hooks}/**/*.{html,js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
 }
-
-<<<<<<< HEAD
-=======
->>>>>>> origin/main
->>>>>>> InvestPhil
