@@ -1,7 +1,17 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
+=======
+<<<<<<< HEAD
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "es6"],
+=======
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+>>>>>>> origin/main
+>>>>>>> InvestPhil
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,9 +29,25 @@
       }
     ],
     "paths": {
+<<<<<<< HEAD
       "@/*": ["./*"],
+=======
+<<<<<<< HEAD
+      "@/*": ["./*"]
+=======
+      "@/*": ["./*"],
+>>>>>>> origin/main
+>>>>>>> InvestPhil
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+} 
+=======
+}
+>>>>>>> origin/main
+>>>>>>> InvestPhil
