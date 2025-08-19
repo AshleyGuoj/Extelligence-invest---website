@@ -6,27 +6,27 @@ export default function DetailedPartners() {
     {
       name: 'Tony F. Chan',
       title: 'Mathematician. University Leader. Global Innovation Strategist.',
-      description: 'President of King Abdullah University of Science and Technology (KAUST), former President of HKUST, Tony brings global academic and innovation leadership. He has spearheaded cross-border research partnerships and continues to shape the future of science, education, and deep tech in Asia and beyond.',
+      description: 'Former President of King Abdullah University of Science and Technology (KAUST) and of HKUST, Tony brings global academic and innovation leadership. He holds a Ph.D. in Computer Science from Stanford University, has spearheaded cross-border research partnerships, and continues to shape the future of science, education, and deep tech in Asia and beyond.',
       wikipedia: 'https://en.m.wikipedia.org/wiki/Tony_F._Chan',
       image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/641bb57b85f5ed9a9dc05658f5ad27fa.jfif'
     },
     {
       name: 'James Kong',
       title: 'Cross-border PE investor with Asia/US experience',
-      description: 'James is an experienced private equity and capital markets investor with a focus on cross-border transactions, growth equity, and capital strategy. He brings a strong track record in high-impact investments and building strategic partnerships across Asia and North America.',
+      description: 'James is an experienced private equity and capital markets investor with a focus on cross-border transactions, growth equity, and capital strategy. He joined BlackRock as its 25th employee (alongside 8 cofounders) and spent 30 years at the firm as one of its most seasoned senior management executives. He brings a strong track record in high-impact investments and in building strategic partnerships across Asia and North America.',
       linkedin: 'https://www.linkedin.com/in/james-kong-808a511b',
       image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/c2fd64129a24dc25b66ff11052ca8106.jfif'
     },
     {
       name: 'Richard Du',
       title: 'Global Automotive Leader. Supply Chain & Marketing Expert.',
-      description: 'Graduated from Shanghai Jiao Tong University, Richard brings over two decades of experience in the international automotive industry. He has held leadership positions at PwC, General Motors, Siemens, Jaguar Land Rover, and SAIC Group. He has overseen overseas supply chains, brand communication, and marketing networks for global vehicle brands including Land Rover, Jaguar, Cadillac, Chevrolet, MG, Roewe, and Opel. With deep expertise in new energy vehicles and autonomous driving, Richard manages cross-border teams and brings strategic insight into global mobility trends.',
+      description: 'Graduated from Shanghai Jiao Tong University, Richard brings over two decades of experience in the international automotive industry. He has held leadership positions at PwC, General Motors, Siemens, Jaguar Land Rover, and SAIC Group. Richard spent 10 years in the Middle Eastern region, where he spearheaded the operation of one of the world\'s largest global companies. He has overseen overseas supply chains, brand communication, and marketing networks for vehicle brands including Land Rover, Jaguar, Cadillac, Chevrolet, MG, Roewe, and Opel. With deep expertise in new energy vehicles and autonomous driving, Richard manages cross-border teams and brings strategic insight into global mobility trends.',
       image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/ac0a10e7d97dc5ebe967f97f57c41a12.jfif'
     },
     {
       name: 'Vivian Zhang',
       title: 'Investor. AI Strategist. VC & Growth Advisor.',
-      description: 'Vivian is a seasoned investor and growth strategist with a strong background in AI, frontier technologies, and early-stage venture capital. She brings experience from multiple leading funds and has served as an advisor to startups at the intersection of deep tech and global expansion. Vivian is passionate about empowering founders and bridging innovation between China and the U.S.',
+      description: 'Vivian is a seasoned investor and growth strategist with over 20 years of hands-on technology experience, particularly in frontier AI. She holds graduate degrees in Computer Science, Applied Mathematics, and Statistics. Vivian brings experience from multiple leading funds and has served as an advisor to startups at the intersection of deep tech and global expansion. In addition to her investment work, she teaches at the Data Science Institute at Columbia University and regularly gives workshops at Tsinghua University, National Taiwan University, and other leading institutions. She is passionate about empowering founders and bridging innovation between China and the U.S.',
       linkedin: 'https://www.linkedin.com/in/vivianszhang/',
       image: 'https://static.readdy.ai/image/8b42f51d86df85f19e4c8e1d8749312d/1e5a9322945da0e36586355de991fe5b.jfif'
     }
